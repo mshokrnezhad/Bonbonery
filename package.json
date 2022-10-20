@@ -1,0 +1,20 @@
+{
+  "name": "bonbonery",
+  "version": "1.0.0",
+  "description": "A client and server code of a confectionery online shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshokrnezhad/bonbonery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mshokrnezhad/bonbonery/issues"
+  },
+  "homepage": "https://github.com/mshokrnezhad/bonbonery#readme"
+}
