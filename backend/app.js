@@ -6,7 +6,7 @@ const morgan = require("morgan");
 const app = express();
 const api = require("./routers/api");
 
-// app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "http://54.227.55.135:8000/" }));
 app.use(morgan("combined"));
 app.use(express.json());
 

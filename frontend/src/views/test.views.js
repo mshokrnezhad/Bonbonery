@@ -21,7 +21,7 @@ const Test = (props) => {
 
   useEffectAfterFirstRender(() => {
     if (props.getTestError) {
-      setMsg("the server is running :(");
+      setMsg("the server is not running :(");
     }
   }, [props.getTestError]);
 
